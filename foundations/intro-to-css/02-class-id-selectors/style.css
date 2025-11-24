@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+
+.para {
+  font-family: Verdana, DejaVu Sans, sans-serif;
+  background-color: #ffcccc;
+}
+#primeiro {
+  color: blue;
+  font-size: 36px;
+}
+.diferente {
+  font-size: 24px;
+}
+#segundo {
+  background-color: #ccffcc;
+  font-size: 24px;
+  font-weight: bold;
+}
