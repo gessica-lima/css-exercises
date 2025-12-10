@@ -4,24 +4,35 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 600px;
   background: #fff;
-  margin: 16px auto;
+  margin: 14px auto;
+  padding: 12px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 16px;
+  margin: 12px 0;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px;
+  margin: 12px 0; /* Apenas margem superior e inferior */
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 16px;
+  text-align: center;
+  margin: 12px 0 0 0; /* Usa margem apenas no topo para separar do conteúdo */
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 12px 24px;
+  display: block; /* Garante que pule a linha do "and a" */
+  margin: 0 auto; /* Centraliza o botão dentro do container */
 }
